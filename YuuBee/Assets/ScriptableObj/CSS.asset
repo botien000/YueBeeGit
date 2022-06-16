@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9873f130830b4c744b95fd67b600a5d8, type: 3}
+  m_Name: CSS
+  m_EditorClassIdentifier: 
+  curSubject: 0
+  lessions:
+  - question: "CSS l\xE0 vi\u1EBFt t\u1EAFt c\u1EE7a k\xFD t\u1EF1 n\xE0o?"
+    rightAnswer: Cascading Style Sheet.
+    otherAnswer:
+    - Colorful Style Sheets.
+    - Computer Style Sheets.
+    - Creative Style Sheets.
+  - question: "C\xFA ph\xE1p \u0111\xFAng li\xEAn k\u1EBFt \u0111\u1EBFn file mystyle.css
+      b\xEAn ngo\xE0i l\xE0 g\xEC?"
+    rightAnswer: Cascading Style Sheet.
+    otherAnswer:
+    - "<a href=\u201Dmystyle.css\u201D rel=\u201Dstylesheet\u201D type=\u201Dtext/css\u201D></a>."
+    - <stylesheets>mystyle.css</stylesheets>.
+    - "<style src=\u201Dmystyle.css\u201D>."
+  - question: "Ch\u1ECDn c\xFA ph\xE1p CSS \u0111\xFAng khi \u0111\u1ECBnh ngh\u0129a
+      m\xE0u v\u0103n b\u1EA3n cho to\xE0n trang web?"
+    rightAnswer: body {color:black;}
+    otherAnswer:
+    - '{body:color=black;}='
+    - '{body;color:black;}'
+    - body:color=black;
+  - question: "Trong CSS, selector n\xE0o d\u01B0\u1EDBi \u0111\xE2y ch\u1ECDn t\u1EA5t
+      c\u1EA3 c\xE1c th\u1EBB <p> ?"
+    rightAnswer: p{}.
+    otherAnswer:
+    - <p> {}.
+    - '#p{ }.'
+    - .p{ }.
+  - question: "CSS selector n\xE0o cho ph\xE9p ch\u1ECDn \u1EA3nh d\u01B0\u1EDBi
+      \u0111\xE2y theo thu\u1ED9c t\xEDnh @id <img id=\u201Dmainpic\u201D src=\u201Dcat.png\u201D>
+      ?"
+    rightAnswer: '#mainpic { }.'
+    otherAnswer:
+    - .mainpic { }.
+    - mainpic { }.
+    - img { }.
+  - question: "CSS selector n\xE0o sau \u0111\xE2y ch\u1ECDn t\u1EA5t c\u1EA3 c\xE1c
+      th\u1EBB h1, h2 v\xE0 h3?"
+    rightAnswer: h1,h2,h3{}.
+    otherAnswer:
+    - h1 h2 h3{}.
+    - h1.h2.h3{}.
+    - h1;h2;h3{}.
+  - question: "Ch\u1ECDn c\xFA ph\xE1p \u0111\xFAng \u0111\u1EC3 \u0111\u1ECBnh ngh\u0129a
+      t\xEAn font ch\u1EEF trong CSS?"
+    rightAnswer: "font-family: \u201CTimes New Roman\u201D, Times, serif;"
+    otherAnswer:
+    - "font-family: \u201CTimes New Roman\u201D Times serif;"
+    - "font-family: \u201CTimes New Roman\u201D Times serif;"
+    - "font-family: \u201CTimes New Roman\u201D; Times; serif;"
+  - question: "Thu\u1ED9c t\xEDnh n\xE0o \u0111\u1ECBnh ngh\u0129a CSS ngay trong
+      1 tag?"
+    rightAnswer: style
+    otherAnswer:
+    - font
+    - class
+    - styles
+  - question: "\u0110\u1EB7t d\xF2ng li\xEAn k\u1EBFt v\u1EDBi file CSS \u1EDF v\xF9ng
+      n\xE0o trong file HTML?"
+    rightAnswer: "Trong th\u1EBB <head>"
+    otherAnswer:
+    - "Trong th\u1EBB <body>"
+    - "\u1EDE cu\u1ED1i file HTML"
+    - "\u1EDE \u0111\u1EA7u file HTML"
+  - question: "L\xE0m sao \u0111\u1EC3 khi click chu\u1ED9t v\xE0o link th\xEC t\u1EA1o
+      ra c\u1EEDa s\u1ED5 m\u1EDBi?"
+    rightAnswer: <a href="url" target="_blank">
+    otherAnswer:
+    - <a href="url" new>
+    - <a href="url" target="new">
+    - <a href="url"blank="new">
+  - question: "\u0110\xE2u l\xE0 nh\u1EEFng tag d\xE0nh cho vi\u1EC7c t\u1EA1o b\u1EA3ng?"
+    rightAnswer: <table><tr><td>
+    otherAnswer:
+    - <thead><body><tr>
+    - <table><head><tfoot>
+    - <table><tr><tt>
+  - question: "\u0110\xE2u l\xE0 tag c\u0103n l\u1EC1 tr\xE1i cho n\u1ED9i dung 1
+      \xF4 trong b\u1EA3ng"
+    rightAnswer: <td align="left">
+    otherAnswer:
+    - <tdleft>
+    - <td valign="left">
+    - <td leftalign>
+  - question: "\u0110\xE2u l\xE0 tag t\u1EA1o ra 1 danh s\xE1ch \u0111\u1EE9ng \u0111\u1EA7u
+      b\u1EB1ng s\u1ED1"
+    rightAnswer: <ol>
+    otherAnswer:
+    - <ul>
+    - <list>
+    - <dl>
+  - question: "Tag n\xE0o t\u1EA1o ra 1 checkbox?"
+    rightAnswer: <input type="checkbox">
+    otherAnswer:
+    - <check>
+    - <input type="check">
+    - <checkbox>
+  - question: "Mu\u1ED1n li\xEAn k\u1EBFt xHTML v\u1EDBi 1 file \u0111\u1ECBnh ngh\u0129a
+      CSS ta d\xF9ng d\xF2ng n\xE0o sau \u0111\xE2y?"
+    rightAnswer: <link rel="stylesheet" type="text/css" href="mystyle.css">
+    otherAnswer:
+    - <style src="mystyle.css">
+    - <stylesheet>mystyle.css</stylesheet>
+    - <link rel="stylesheet" style src="style.css" type=type="text/css">

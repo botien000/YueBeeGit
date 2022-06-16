@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9873f130830b4c744b95fd67b600a5d8, type: 3}
+  m_Name: JavaScript
+  m_EditorClassIdentifier: 
+  curSubject: 0
+  lessions:
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n OnUnload th\u1EF1c hi\u1EC7n khi
+      n\xE0o?"
+    rightAnswer: "Khi k\u1EBFt th\xFAc m\u1ED9t ch\u01B0\u01A1ng tr\xECnh"
+    otherAnswer:
+    - "Khi b\u1EAFt \u0111\u1EA7u ch\u01B0\u01A1ng tr\xECnh ch\u1EA1y"
+    - "Khi click chu\u1ED9t"
+    - "Khi di chuy\u1EC3n chu\u1ED9t qua"
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n Onblur th\u1EF1c hi\u1EC7n khi
+      n\xE0o?"
+    rightAnswer: "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form m\u1EA5t
+      focus"
+    otherAnswer:
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form c\xF3 focus"
+    - "Khi di chuy\u1EC3n con chu\u1ED9t qua form"
+    - "Khi click chu\u1ED9t v\xE0o n\xFAt l\u1EC7nh"
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n OnMouseOver th\u1EF1c hi\u1EC7n
+      khi n\xE0o?"
+    rightAnswer: "Khi di chuy\u1EC3n con chu\u1ED9t qua m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng
+      trong form"
+    otherAnswer:
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form m\u1EA5t focus"
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form c\xF3 focus"
+    - "Khi click chu\u1ED9t v\xE0o n\xFAt l\u1EC7nh"
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n Onclick x\u1EA3y ra khi n\xE0o?"
+    rightAnswer: "Khi click chu\u1ED9t v\xE0o n\xFAt l\u1EC7nh"
+    otherAnswer:
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form m\u1EA5t focus"
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form c\xF3 focus"
+    - "Khi click chu\u1ED9t v\xE0o m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form"
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n Onchange th\u1EF1c hi\u1EC7n khi
+      n\xE0o?"
+    rightAnswer: "X\u1EA3y ra khi gi\xE1 tr\u1ECB c\u1EE7a m\u1ED9t tr\u01B0\u1EDDng
+      trong form \u0111\u01B0\u1EE3c ng\u01B0\u1EDDi d\xF9ng thay \u0111\u1ED5i"
+    otherAnswer:
+    - "Khi click chu\u1ED9t v\xE0o n\xFAt l\u1EC7nh"
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form c\xF3 focus"
+    - "Khi m\u1ED9t \u0111\u1ED1i t\u01B0\u1EE3ng trong form m\u1EA5t focus"
+  - question: "Trong Javascript h\xE0m parseInt() d\xF9ng \u0111\u1EC3 l\xE0m g\xEC?"
+    rightAnswer: "Chuy\u1EC3n m\u1ED9t chu\u1ED7i th\xE0nh s\u1ED1 nguy\xEAn"
+    otherAnswer:
+    - "Chuy\u1EC3n m\u1ED9t chu\u1ED7i th\xE0nh s\u1ED1"
+    - "Chuy\u1EC3n m\u1ED9t chu\u1ED7i th\xE0nh s\u1ED1 th\u1EF1c"
+    - "Chuy\u1EC3n m\u1ED9t s\u1ED1 nguy\xEAn th\xE0nh m\u1ED9t chu\u1ED7i"
+  - question: " Javascript c\xF3 c\xE1c d\u1EA1ng bi\u1EBFn?"
+    rightAnswer: Number, String, Boolean
+    otherAnswer:
+    - Number, Integer, char
+    - Number, String, Boolean, Null
+    - "T\u1EA5t c\u1EA3 c\xE1c lo\u1EA1i tr\xEAn."
+  - question: " Javascript l\xE0 ng\xF4n ng\u1EEF k\u1ECBch b\u1EA3n c\xF3 d\u1EA5u
+      \u0111\u01B0\u1EE3c m\xE3 ngu\u1ED3n kh\xF4ng?"
+    rightAnswer: "Kh\xF4ng d\u1EA5u \u0111\u01B0\u1EE3c v\xEC c\xE1c k\u1ECBch b\u1EA3n
+      ch\u1EA1y \u1EDF client."
+    otherAnswer:
+    - "D\u1EA5u \u0111\u01B0\u1EE3c v\xEC ch\u01B0\u01A1ng tr\xECnh ho\u1EA1t \u0111\u1ED9ng
+      \u0111\u1ED9c l\u1EADp v\u1EDBi tr\xECnh duy\u1EC7t"
+    - "Hai ph\xE1t bi\u1EC3u \u0111\u1EC1u sai."
+    - "\xD0\xE1p \xE1n kh\xE1c."
+  - question: "Ph\u01B0\u01A1ng th\u1EE9c vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh c\u1EE7a
+      Javascript nh\u01B0 th\u1EBF n\xE0o?"
+    rightAnswer: "C\u1EA3 hai d\u1EA1ng"
+    otherAnswer:
+    - "Vi\u1EBFt ri\xEAng m\u1ED9t trang"
+    - "Vi\u1EBFt chung v\u1EDBi HTML"
+    - "Kh\xF4ng c\xF3 d\u1EA1ng n\xE0o."
+  - question: "Giai \u0111o\u1EA1n c\u1EE7a event propagation l\xE0 g\xEC?"
+    rightAnswer: Capturing > Target > Bubbling
+    otherAnswer:
+    - Target > Capturing > Bubbling
+    - Bubbling > Target > Capturing
+    - Target > Bubbling > Capturing
+  - question: "T\u1EA5t c\u1EA3 c\xE1c object \u0111\u1EC1u c\xF3 prototype?"
+    rightAnswer: false
+    otherAnswer:
+    - true
+    - null
+    - underfine
+  - question: "Ph\u01B0\u01A1ng th\u1EE9c setInterval tr\u1EA3 v\u1EC1 c\xE1i g\xEC? "
+    rightAnswer: "M\u1ED9t id duy nh\u1EA5t"
+    otherAnswer:
+    - "S\u1ED1 mili gi\xE2y \u0111\u01B0\u1EE3c ch\u1EC9 \u0111\u1ECBnh"
+    - Passed function
+    - Underfine
+  - question: "JavaScript l\xE0 ng\xF4n ng\u1EEF x\u1EED l\xFD \u1EDF:"
+    rightAnswer: Client
+    otherAnswer:
+    - Server
+    - Server/client
+    - "Kh\xF4ng c\xF3 d\u1EA1ng n\xE0o."
+  - question: "Trong Javascript s\u1EF1 ki\u1EC7n OnUnload th\u1EF1c hi\u1EC7n khi
+      n\xE0o?"
+    rightAnswer: "Khi k\u1EBFt th\xFAc m\u1ED9t ch\u01B0\u01A1ng tr\xECnh"
+    otherAnswer:
+    - "Khi b\u1EAFt \u0111\u1EA7u ch\u01B0\u01A1ng tr\xECnh ch\u1EA1y"
+    - "Khi click chu\u1ED9t"
+    - "Khi di chuy\u1EC3n chu\u1ED9t qua"
+  - question: "Javascript l\xE0 ng\xF4n ng\u1EEF th\xF4ng d\u1ECBch hay bi\xEAn d\u1ECBch"
+    rightAnswer: "Bi\xEAn d\u1ECBch"
+    otherAnswer:
+    - "Th\xF4ng d\u1ECBch"
+    - "C\u1EA3 hai d\u1EA1ng"
+    - "Kh\xF4ng c\xF3 d\u1EA1ng n\xE0o \u1EDF tr\xEAn"

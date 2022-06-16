@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9873f130830b4c744b95fd67b600a5d8, type: 3}
+  m_Name: HTML
+  m_EditorClassIdentifier: 
+  curSubject: 2
+  lessions:
+  - question: "HTML l\xE0 vi\u1EBFt t\u1EAFt c\u1EE7a c\u1EE5m t\u1EEB n\xE0o?"
+    rightAnswer: HyperText Markup Language.
+    otherAnswer:
+    - HighperText Markup Language.
+    - Hot Text Markup Language.
+    - HyperText Mockup Language.
+  - question: "HTML5 ra \u0111\u1EDDi v\xE0o n\u0103m n\xE0o?"
+    rightAnswer: 2009
+    otherAnswer:
+    - 2000
+    - 1991
+    - 1994
+  - question: "Th\u1EBB n\xE0o sau \u0111\xE2y kh\xF4ng n\xEAn \u0111\u1EB7t trong
+      th\u1EBB body?"
+    rightAnswer: <meta>.
+    otherAnswer:
+    - <img>.
+    - <hr>.
+    - <p>.
+  - question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng?"
+    rightAnswer: "Th\u1EBB HTML kh\xF4ng b\u1EAFt bu\u1ED9c ph\u1EA3i c\xF3 thu\u1ED9c
+      t\xEDnh v\xE0 n\u1ED9i dung."
+    otherAnswer:
+    - "Th\u1EBB HTML ph\u1EA3i c\xF3 thu\u1ED9c t\xEDnh ho\u1EB7c n\u1ED9i dung."
+    - "Th\u1EBB HTML b\u1EAFt bu\u1ED9c ph\u1EA3i c\xF3 thu\u1ED9c t\xEDnh nh\u01B0ng
+      kh\xF4ng nh\u1EA5t thi\u1EBFt ph\u1EA3i c\xF3 n\u1ED9i dung."
+    - "Th\u1EBB HTML b\u1EAFt bu\u1ED9c ph\u1EA3i c\xF3 thu\u1ED9c t\xEDnh v\xE0
+      n\u1ED9i dung."
+  - question: "Th\u1EBB n\xE0o sau \u0111\xE2y th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+      s\u1EED d\u1EE5ng \u0111\u1EC3 l\xE0m ti\xEAu \u0111\u1EC1?"
+    rightAnswer: <strong>.
+    otherAnswer:
+    - <em>.
+    - <ins>.
+    - <h1>.
+  - question: "Ch\u1ECDn th\u1EBB kh\xE1c lo\u1EA1i?"
+    rightAnswer: '<strong>. '
+    otherAnswer:
+    - <address>.
+    - <em>.
+    - <i>.
+  - question: "Thu\u1ED9c t\xEDnh n\xE0o sau \u0111\xE2y kh\xF4ng ph\u1EA3i thu\u1ED9c
+      t\xEDnh c\u1EE7a th\u1EBB <img>?"
+    rightAnswer: '@charset. '
+    otherAnswer:
+    - '@src.'
+    - '@align.'
+    - '@alt.'
+  - question: "Thu\u1ED9c t\xEDnh @alt c\u1EE7a th\u1EBB <img> c\xF3 t\xE1c d\u1EE5ng
+      g\xEC?"
+    rightAnswer: "V\u0103n b\u1EA3n thay th\u1EC3 khi \u1EA3nh ch\u01B0a t\u1EA3i
+      v\u1EC1."
+    otherAnswer:
+    - "Ch\u1EC9 ra \u0111\u1ECBa ch\u1EC9 c\u1EE7a \u1EA3nh."
+    - "\u0110\u1EB7t \u0111\u01B0\u1EDDng bao xung quanh \u1EA3nh."
+    - "C\u0103n l\u1EC1 \u1EA3nh sang tr\xE1i ho\u1EB7c ph\u1EA3i."
+  - question: " \u0110\u1EC3 tr\xECnh b\xE0y m\u1ED9t \u0111o\u1EA1n v\u0103n b\u1EA3n
+      trong t\xE0i li\u1EC7u HTML ta d\xF9ng th\u1EBB:"
+    rightAnswer: <p>
+    otherAnswer:
+    - <hr>
+    - <br>
+    - <pre>
+  - question: " \u0110\u1EC3 ch\xE8n h\xECnh \u1EA3nh v\xE0o trang web ta d\xF9ng
+      th\u1EBB:"
+    rightAnswer: <img>
+    otherAnswer:
+    - <imgage>
+    - <picture>
+    - <pic>
+  - question: "\u0110\u1EC3 khai b\xE1o m\u1ED9t b\u1EA3ng tr\xEAn trang web ta s\u1EED
+      d\u1EE5ng th\u1EBB:"
+    rightAnswer: <table>
+    otherAnswer:
+    - <tr>
+    - <td>
+    - <th>
+  - question: "\u0110\u1EC3 khai b\xE1o m\u1ED9t ph\u1EA7n t\u1EED \u0111i\u1EC1u
+      khi\u1EC3n cho ph\xE9p ng\u01B0\u1EDDi d\xF9ng c\xF3 th\u1EC3 ch\u1ECDn m\u1ED9t
+      hay nhi\u1EC1u gi\xE1 tr\u1ECB ta s\u1EED d\u1EE5ng th\u1EBB:"
+    rightAnswer: <input type = "checkbox"
+    otherAnswer:
+    - <input type = "text"
+    - <input type = "radio"
+    - <input type = "area"
+  - question: "\u0110\u1EC3 khai b\xE1o m\u1ED9t ph\u1EA7n t\u1EED \u0111i\u1EC1u
+      khi\u1EC3n khi nh\u1EA5n v\xE0o s\u1EBD g\u1EEDi th\xF4ng tin c\u1EE7a Form
+      \u0111i ta s\u1EED d\u1EE5ng th\u1EBB:"
+    rightAnswer: <input type = "submit"
+    otherAnswer:
+    - <input type = "text"
+    - <input type = "password"
+    - <input type = "reset"
+  - question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng v\u1EC1 v\xF9ng nh\u1EADn
+      chu\u1ED9t c\u1EE7a li\xEAn k\u1EBFt (hotspot) ?"
+    rightAnswer: "Cho ph\xE9p c\u1EA3 \u1EA3nh v\xE0 v\u0103n b\u1EA3n."
+    otherAnswer:
+    - "Ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p m\u1ED9t trong hai \u1EA3nh v\xE0 v\u0103n
+      b\u1EA3n."
+    - "Ch\u1EC9 cho ph\xE9p \u1EA3nh."
+    - "Ch\u1EC9 cho ph\xE9p v\u0103n b\u1EA3n."
+  - question: "Th\u1EBB <a> c\xF3 th\u1EC3 s\u1EED d\u1EE5ng \u0111\u1EC3 l\xE0m
+      g\xEC?"
+    rightAnswer: "T\u1EA5t c\u1EA3 c\xE1c \u0111\xE1p \xE1n kh\xE1c \u0111\u1EC1u
+      \u0111\xFAng."
+    otherAnswer:
+    - "Li\xEAn k\u1EBFt \u0111\u1EBFn m\u1ED9t trang web trong c\xF9ng website ho\u1EB7c
+      website kh\xE1c. "
+    - "G\u1ECDi JavaScript."
+    - "T\u1EA3i m\u1ED9t t\xE0i nguy\xEAn b\u1EA5t k\u1EF3 tr\xEAn web."
